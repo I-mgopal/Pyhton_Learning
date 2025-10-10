@@ -1,6 +1,6 @@
 a = (1,2,3,4,6,7,7,7)
 
-#Traversing
+#Traversing in tuple
 for i in a:
     print(i," ")
 
