@@ -1,4 +1,5 @@
 import copy
+#Shallow copy
 list1 = [1,2,3,[1,3]]
 list2 = copy.copy(list1)
 
