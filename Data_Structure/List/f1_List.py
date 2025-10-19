@@ -21,5 +21,10 @@ print("----------------------------------------")
 for i in a:
     print(i)
 
-print(dir(list))
-help(list)
+# print(dir(list))
+# help(list)
+
+print("-------------------- Unpacking-------------------")
+result = [1,2,3,4,5,6]
+print(result)
+print(*result)
