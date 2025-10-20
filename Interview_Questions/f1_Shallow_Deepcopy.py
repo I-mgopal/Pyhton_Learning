@@ -2,7 +2,6 @@ import copy
 #Shallow copy
 list1 = [1,2,3,[1,3]]
 list2 = copy.copy(list1)
-
 list2[-1][0]=2
 list2[-2] = 8
 print(list1)
