@@ -57,4 +57,5 @@ def minTypingCost(s)->int:
 print(minTypingCost("abcabc"))  
 print(minTypingCost("mississippi")) 
 print(minTypingCost("aaaa"))  
-print(minTypingCost("aaaaaabaaa"))  
+print(minTypingCost("aaaaaabaaa")) 
+print(minTypingCost("aaaaaabbaaa")) 
