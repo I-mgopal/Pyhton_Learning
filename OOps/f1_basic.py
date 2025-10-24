@@ -6,6 +6,8 @@ class Factory:
 print(Factory().a)
 Factory().hello()
 
+
+#Another  Example
 class Dog:
     def __init__(self, name, age):  # Constructor method
         self.name = name
