@@ -5,3 +5,11 @@ class Factory:
 
 print(Factory().a)
 Factory().hello()
+
+class Dog:
+    def __init__(self, name, age):  # Constructor method
+        self.name = name
+        self.age = age
+
+    def bark(self):  # Instance method
+        return f"{self.name} says woof!"
